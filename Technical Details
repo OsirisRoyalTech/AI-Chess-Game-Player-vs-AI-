@@ -1,0 +1,12 @@
+Algorithm: The game uses the minimax algorithm with alpha-beta pruning to evaluate the best moves for the AI. 
+It simulates all possible future moves and assigns scores to the resulting positions. The AI maximizes its score 
+while minimizing the opponent's score.
+
+Evaluation Function: The material count (based on the piece values) is used to evaluate each game state, 
+though a more sophisticated evaluation function could be implemented in the future, considering piece positioning 
+and other factors.
+
+Game State Management: The board state is tracked in a 2D list, with each piece represented as an object 
+containing its color and type. The board is updated after each move, and the game checks for win/loss conditions 
+after every turn.
+
