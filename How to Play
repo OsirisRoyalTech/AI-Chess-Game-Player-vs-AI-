@@ -1,0 +1,17 @@
+Starting the Game:
+
+When the game starts, the board will be printed with the initial setup.
+You will be prompted to make your move, either as White or Black.
+Making Moves:
+
+Enter moves in the format of "e2 to e4" or "a7 to a5" to move pieces.
+The game will check if the move is valid according to the rules of chess and update the board.
+AI Move:
+
+After you make your move, the AI will take its turn automatically.
+The AI selects its move using a strategy that attempts to maximize its chances of winning.
+Winning the Game:
+
+If your King is checkmated, you lose the game.
+If the AI's King is checkmated, you win the game.
+If there are no legal moves left and neither player's King is in check, the game is a stalemate (draw).
