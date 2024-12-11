@@ -2,7 +2,7 @@
 
 Overview: This is a simple text-based chess game where you can play against an AI opponent. The game follows traditional chess rules, and the AI uses a basic minimax algorithm with alpha-beta pruning to evaluate the best possible moves. You can play as either the white or black side, and the game provides turn-based interactions, with each player (you and the AI) making one move at a time.
 
-Game Features:
+# Game Features:
 
 Player vs AI:
 
